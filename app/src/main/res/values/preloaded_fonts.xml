@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/alegreya_sc_bold</item>
+        <item>@font/alex_brush</item>
+        <item>@font/almendra_display</item>
+        <item>@font/almendra_sc</item>
+        <item>@font/artifika</item>
+        <item>@font/courgette</item>
+        <item>@font/gilda_display</item>
+    </array>
+</resources>

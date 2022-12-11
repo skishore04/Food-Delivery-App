@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Simple Eats</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Sign_in"><b><u>Sign in</u></b></string>
+    <string name="Account"><b><u>Sign Up</u></b></string>
+    <string name="For_pass"><b><i><u>Forgot Password?</u></i></b></string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">REGISTER</string>
+    <string name="password">Password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="log_in">LOG IN</string>
+    <string name="TotalBill"> </string>
+</resources>

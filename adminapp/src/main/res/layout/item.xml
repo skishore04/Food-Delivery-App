@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Token"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/token"
+                android:layout_width="209dp"
+                android:layout_height="47dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="545"
+                android:textColor="#151414"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vie"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Item Name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/itemname"
+                android:layout_width="218dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/arima_madurai_extrabold"
+                android:gravity="center"
+                android:text="dosa"
+                android:textColor="#151414"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="Quantity"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="322dp"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="545"
+                android:textColor="#151414"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="126dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="Bill"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bill"
+                android:layout_width="181dp"
+                android:layout_height="39dp"
+                android:layout_gravity="center|top"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="545"
+                android:textColor="#191818"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

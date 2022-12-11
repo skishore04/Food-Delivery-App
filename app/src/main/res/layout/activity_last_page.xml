@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|start"
+    android:background="@drawable/gradient_startmenu"
+    tools:context=".Activity.LastPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="353dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/artifika"
+            android:text="Your order has been placed  Successfully"
+            android:textAlignment="center"
+            android:textColor="#F1F3F6"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="149dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:background="@drawable/myshapeu"
+            android:fontFamily="@font/gilda_display"
+            android:soundEffectsEnabled="true"
+            android:text="TOKEN"
+            android:textColor="#F3EFEF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="164dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:textColor="#F8F5F3"
+            android:textSize="70sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="258dp"
+            android:layout_height="212dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img_2" />
+
+        <TextView
+            android:id="@+id/NameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="211dp"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:text="Your Total Bill="
+                android:textColor="#FAF4F4"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TotalBill"
+                android:layout_width="122dp"
+                android:layout_height="43dp"
+                android:gravity="center|left"
+                android:textColor="#F8F7F7"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/buttonDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Done"
+            android:textColor="#6C1A7E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="407dp"
+        android:layout_height="61dp"
+        android:text=""
+
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="144dp"
+        android:layout_height="106dp"
+        android:text=""
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/item1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
